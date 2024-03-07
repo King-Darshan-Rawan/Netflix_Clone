@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono&family=Madimi+One&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Simonetta","poppins",sans-serif;
+}
+body{
+    background-color: #010100;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.left img{
+    height: 70px;
+    width: 200px;
+    opacity: 0.8;
+    
+}
+.right{
+    display: flex;
+    align-items: inline;
+    padding-right: 50px;
+    
+}
+.options select{
+    margin-right: 1rem;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(229, 9, 20, 0.95);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding-left: 40px;
+    
+}
+.btn{
+    margin-right: 1rem;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(229, 9, 20, 0.95);
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: rgba(229, 9, 20, 0.95);
+}
+.info{
+    color: #fff;
+    text-align: center;
+}
+#a9977{
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+.info h1,h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info p{
+    font-weight: 600;
+}
+.email{
+    display: flex;
+    align-items: inline;
+    margin-top: 0.5rem;
+}
+.email form input{
+    height: 50px;
+    width:500px;
+    margin-right: 1rem;
+    border: 1px solid rgba(229, 9, 20, 0.95);
+    border-radius: 5px;
+    font-size: large;
+    padding-left: 1rem;
+    
+}
+.body hr{
+    width: 100%;
+    height: 5px;
+    color: rgba(229, 9, 20, 0.95);
+} 
+
+.aontain-all{
+    display: flex;
+    align-items: inline;
+    justify-content: space-between;
+}
+
+.container1{
+    height:250px;
+    width: 250px;
+    background-color: ;
+    background: linear-gradient(135deg,#182143,#20111c);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 10px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.container1 p{
+    font-size: 30px;
+    font-weight: 600;   
+}
+.resions{
+    background-color: #010100;
+}
+.wfm{
+    color: #fff;
+    font-size: 25px;
+    height: 50px;
+    width: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-weight: 600;
+}
+.questions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 80%;
+    color: #fff;
+    background-color: rgb(69, 67, 67);
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.meta{
+    margin-left: 2rem;
+}
+.lists{
+    display: flex;
+    align-items: inline;
+    justify-content: space-between;
+}
+.lists ul{
+    margin-right: 10rem;
+    margin-left: 10rem;
+    color: #fff;
+    font-size: 20px;
+    list-style-type:none ;
+}
+.lists li{
+    margin-top: 5px;
+    /* font-size: 20px; */
+}
+.lists ul li a{
+    color: #fff;
+    /* font-size: 20px; */
+}
+.down-btn{
+    margin-left: 10rem;
+}
+.down-btn select{
+    background-color: #010100;
+}
